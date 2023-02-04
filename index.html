@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/49f81c9f0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" autocomplete="off" autofocus placeholder="0">
+        <div id="row1">
+            <button class="btn" id="del"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="btn" id="clear">C</button>
+            <input type="button" class="btn signs" value="/">
+        </div>
+        
+        <div id="row2">
+            <input type="button" class="btn nums" value="7">
+            <input type="button" class="btn nums" value="8">
+            <input type="button" class="btn nums" value="9">
+            <input type="button" class="btn signs" value="*">
+        </div>
+        
+        <div id="row3">
+            <input type="button" class="btn nums" value="4">
+            <input type="button" class="btn nums" value="5">
+            <input type="button" class="btn nums" value="6">
+            <input type="button" class="btn signs" value="-">
+        </div>
+
+        <div id="row4">
+            <input type="button" class="btn nums" value="1">
+            <input type="button" class="btn nums" value="2">
+            <input type="button" class="btn nums" value="3">
+            <input type="button" class="btn signs" value="+">
+        </div>
+        
+        <div id="row5">
+            <input type="button" class="btn nums" value="0">
+            <input type="button" class="btn" style="width: 50px;" value=".">
+            <button class="btn signs" id="enter">=</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
